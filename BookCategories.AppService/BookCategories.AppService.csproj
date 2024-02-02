@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookCategories.Domain\BookCategories.Domain.csproj" />
+    <ProjectReference Include="..\BookCategories.Infrastructure\BookCategories.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interface\Repository\" />
+    <Folder Include="Configurations\DependencyInjection\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+</Project>
